@@ -1,0 +1,20 @@
+.test{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+}
+.header_top{
+    text-align: right;
+    color: white;
+    background-color: black;
+}
