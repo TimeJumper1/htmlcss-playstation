@@ -57,6 +57,12 @@ img{
 .ms_btn_color_b{
     background-color: #363636;
 }
+.ms_btn_color_o{
+    background-color:#cd3d0f;
+}
+.ms_btn_color_blu{
+    background-color:#0c77d3 ;
+}
 .ms_btn_textcolor_w{
     color: white;
 }
@@ -124,6 +130,13 @@ header{
   height: 800px;
   display: flex;
 }
+.ms_jumbotron_card img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.ms_jumbotron_card h2{
+    font-size: 40px;
+}
 /* under_jumbotron-1 section */
 .under_jumbotron-1{
     margin: 20px 0 40px;
@@ -162,4 +175,28 @@ header{
     background-position:center 90px ;
     height: 800px;
     display: flex;
-  }
+}
+/* new relase section */
+.new_relase{
+    background-color: #1f1f1f;
+    color: white;
+    padding-bottom: 30px;
+}
+.new_relase h2{
+    padding: 10px 0;
+}
+.new_relase img{
+    border-radius: 10px;
+}
+.ms_spaziamento{
+    margin: 20px 0;
+}
+/* esplora PlayStation section */
+.registered_mark{
+    vertical-align: super;
+    font-size: 15px;
+}
+.esplora_ps h2{
+    font-size: 40px;
+    font-weight: 700;
+}
