@@ -63,8 +63,14 @@ img{
 .ms_btn_color_blu{
     background-color:#0c77d3 ;
 }
+.ms_btn_color_whitey{
+    background-color: #d9dadc;
+}
 .ms_btn_textcolor_w{
     color: white;
+}
+.ms_btn_textcolor_blu{
+    color: #3b6ee5;
 }
 /* header */
 
@@ -199,4 +205,12 @@ header{
 .esplora_ps h2{
     font-size: 40px;
     font-weight: 700;
+}
+/* playstation_plus section */
+.playstation_plus{
+    width: 100%;
+    height: 350px;
+    background-color: #bebcbb;
+    object-fit: contain;
+    
 }
