@@ -16,12 +16,9 @@ img{
     position: relative;
 }
 .ms_jumbotron_card{
-  
-    /* test */
     color: white;
     max-width: 600px;
-    padding: 10px;
-    margin: 20px;
+    
 }
 .ms_center{
     text-align: center;
@@ -48,6 +45,8 @@ img{
 .ms_align_right{
     text-align: right;
 }
+
+/* elemnti btn */
 .ms_btn{
     display: inline-block;
     border-radius: 20px;
@@ -78,6 +77,9 @@ img{
 .ms_btn_textcolor_black{
     color: black;
 }
+.ms_btn:hover{
+    filter: invert(1);
+}
 /* header */
 
 header{
@@ -92,7 +94,7 @@ header{
     color: white;
     background-color: black;
     height: 30px;
-    
+    width: 100%;
 }
 .logo_sony{
     width: 125px;
@@ -103,7 +105,7 @@ header{
 .header_bot{
     height: 60px;
     background-color: white;
- 
+    width: 100%;
 }
 .header_bot li{
     display: inline-block;
@@ -142,12 +144,18 @@ header{
   height: 800px;
   display: flex;
 }
+.ms_jumbotron_card{
+    padding-bottom: 30px;
+}
 .ms_jumbotron_card img{
     width: 60%;
     margin-bottom: 30px;
 }
 .ms_jumbotron_card h2{
     font-size: 40px;
+}
+.ms_jumbotron_card p{
+    margin: 20px 0;
 }
 /* under_jumbotron-1 section */
 .under_jumbotron-1{
@@ -159,9 +167,9 @@ header{
     padding: 4px;
 }
 .ms_active_border{
-    border: 2px solid #0c77d3;
-    
+    border: 2px solid #0c77d3;  
 }
+
 /* playstation 5 section */
 .ms_color_b{
     color:#0c77d3 ;
@@ -219,15 +227,20 @@ header{
     background-color: #bebcbb;
     margin: 30px 0;
     font-weight: 600;
-    
+    display: flex;
 }
 .logo_ps_plus img{
-    width: 50%;
+    width: 80%;
+    
     height: auto;
 }
 .featured_games_plus img{
     height: 350px;
+    max-width: 100%;
     width: auto;
+}
+.playstation_plus p{
+    padding: 20px 0;
 }
 /* nuovi sconti section */
 .nuovi_sconti h2{
@@ -244,15 +257,19 @@ header{
     margin: 30px 0;
     font-weight: 600;
     color: white;
-    
+    display: flex;
 }
 .logo_ps_now img{
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 .featured_games img{
     height: 400px;
+    max-width: 100%;
     width: auto;
+}
+.playstation_now p{
+    margin: 40px 0;
 }
 /* social_media_link section */
 .social_media_link h2{
@@ -263,6 +280,9 @@ header{
     width: 100%;
     height: auto;
     margin:20px 0 ;
+}
+.social_media_link img:hover{
+    transform: scale(1.2);
 }
 /* footer section */
 footer{
@@ -280,4 +300,7 @@ footer{
 }
 .underlined_text{
     text-decoration: underline;
+}
+footer a:hover{
+    color: black;
 }
