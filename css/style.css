@@ -24,7 +24,8 @@ img{
     text-align: center;
 }
 .ms_container_small{
-    width: 540px;
+    max-width: 540px;
+    width: 90%;
     margin: 20px auto;
 }
 .ms_text{
@@ -166,10 +167,11 @@ header{
     border-radius: 20px;
     padding: 4px;
 }
-.ms_active_border{
-    border: 2px solid #0c77d3;  
-}
 
+.ms_active_border:hover{
+    transform: scale(1.2);
+    border: 2px solid #0c77d3; 
+}
 /* playstation 5 section */
 .ms_color_b{
     color:#0c77d3 ;
@@ -179,8 +181,9 @@ header{
         display: none;
     }
 }
-.ms_active_border_bottom{
+.ms_active_border_bottom:hover{
     border-bottom: 2px solid #0c77d3;
+    filter: opacity(1);
 }   
 .ms_overlay{
     filter: opacity(0.6);
