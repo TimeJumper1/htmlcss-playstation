@@ -138,6 +138,15 @@ header{
 .header_bot li i{
     font-size: 25px;
 }
+.chevron_hover{
+    display: none;
+}
+.header_bot li:hover img{
+    display: none;
+}
+.header_bot li:hover .chevron_hover{
+    display: inline-block;
+}
 /* jumbotron section */
 .ms_jumbotron-1{
   padding-top: 100px;
