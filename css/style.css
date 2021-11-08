@@ -81,6 +81,9 @@ img{
 .ms_btn:hover{
     filter: invert(1);
 }
+.ms_btn a:hover{
+    filter: invert(0);
+}
 /* header */
 
 header{
@@ -222,6 +225,9 @@ header{
 .esplora_ps h2{
     font-size: 40px;
     font-weight: 700;
+}
+.esplora_ps a:hover{
+    color: black;
 }
 /* playstation_plus section */
 .playstation_plus{
