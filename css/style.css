@@ -4,6 +4,7 @@ body{
 /* common */
 ul{
     list-style-type: none;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -87,10 +88,11 @@ img{
 /* header */
 
 header{
-    position: fixed;
     width: 100%;
     z-index: 4;
     font-family: Helvetica, arial, sans-serif;
+    position: relative;
+    
 }
 /* header top */
 .header_top{
@@ -99,6 +101,10 @@ header{
     background-color: black;
     height: 30px;
     width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 .logo_sony{
     width: 125px;
@@ -107,14 +113,17 @@ header{
 }
 /* header bot */
 .header_bot{
-    height: 60px;
+    height: 100px;
     background-color: white;
     width: 100%;
+    position: fixed;
+    
+   
 }
 .header_bot li{
     display: inline-block;
-    padding: 0 6px;
-    line-height: 60px;
+    padding-right:6px;
+    line-height: 100px;
     color: black;
     font-weight: 600;
     font-size: 15px;
